@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT FORM</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            overflow: hidden;
+            border:2px solid black;
+            border-radius: 7px;
+            background-color: lightgrey;
+            
+        }
+        body{
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+       }
+        nav{
+            background-color: green ;
+            font-family:Arial, Helvetica, sans-serif;
+            color: white;
+            background-size: cover;
+            border-radius: 5px;
+            padding: 5px 10px;
+            overflow: hidden;
+        }
+        .form{
+            overflow: hidden;
+           background-color: lightgrey;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           font-size:12px;
+           justify-content: center;
+           border-radius: 5px;
+           padding: 20px;
+        }
+        input[type="password"]{
+            width: 100%;
+            border: 1px slid black;
+            margin: 12px 5px;
+            padding: 15px;
+            border-radius: 5px;
+            
+        }
+        input[type="email"]{  
+            width: 100%;
+            border: 1px slid black;
+            margin: 12px 5px;
+            padding: 15px;
+            border-radius: 5px;
+            
+        }
+        input[type="submit"]{
+            background-color: green ;
+            font-family:Arial, Helvetica, sans-serif;
+            color: white;
+            background-size: cover;
+            border-radius: 5px;
+            padding: 20px 50px;
+            margin: 15px;
+            justify-content: center;
+            text-align: center;
+        }
+        input[type="submit"]:hover{
+            background-color: darkgoldenrod;
+        }
+        h1{
+            text-align: center;
+        }
+        input[type="submit"],input[type="submit"],#Member{
+            display: inline;
+            margin-left: 200px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <nav>
+        <h1 >Login/SignUp</h1>
+        </nav>
+        <div class="form">
+        <p>Email :<input type="email"required placeholder="-www.example@gmail.com"></p>
+        <p>Password :<input type="password"required placeholder="*********"></p>
+         <a href="#">Forgot Password?</a>
+        </div>
+        <input type="submit"value="Login">
+        <input type="submit"value="SignUp">
+        <a href="#" id="Member">Not a Member</a>
+    </form>
+</body>
+</html>
