@@ -32,6 +32,8 @@ nav a {
 }
 nav a:hover{
     color:goldenrod;
+    transition: 1s ease-in;
+    background-color: #3d3d3d;
 }
 main {
     background-color: white;
