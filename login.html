@@ -86,12 +86,19 @@
         </nav>
         <div class="form">
         <p>Email :<input type="email"required placeholder="-www.example@gmail.com"></p>
-        <p>Password :<input type="password"required placeholder="*********"></p>
+        <p>Password :<input type="password"required id="pass" name="checkbox" placeholder="*********"><input type="checkbox" name="checkbox" id="see"></p>
          <a href="#">Forgot Password?</a>
         </div>
         <input type="submit"value="Login">
         <input type="submit"value="SignUp">
         <a href="#" id="Member">Not a Member</a>
     </form>
+    <script>
+        see.onclick = togglepassword;
+        function togglepassword(){
+            if(see.checked) pass.type = "text";
+            else pass.type = "password";
+        }
+    </script>
 </body>
 </html>
